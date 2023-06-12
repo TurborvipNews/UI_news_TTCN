@@ -1,0 +1,58 @@
+.caption {
+    padding: 12px;
+    font-family: -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        "Fira Sans",
+        "Droid Sans",
+        "Helvetica Neue",
+        sans-serif;
+    ;
+    font-weight: 500;
+    font-size: x-large;
+    width: fit-content;
+}
+
+.loginForm {
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.formBtn {
+    padding: 12px;
+    width: fit-content;
+    margin-left: auto;
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    border: 1px;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Calibri;
+    width: 80px;
+}
+
+
+.btnSignUp {
+    background-color: #0058dd;
+    color: white;
+}
+
+.btnSignUp:hover {
+    background-color: #2273ee;
+}
+
+.btnForgot {
+    color: rgb(68, 68, 68);
+    background-color: #d6d6d6;
+}

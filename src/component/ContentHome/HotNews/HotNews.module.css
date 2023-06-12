@@ -1,0 +1,70 @@
+.topItem {
+    width: 100%;
+    height: 73%;
+}
+
+.imageHotItem,
+.imageHotestItem {
+    width: 100%;
+    height: 100%;
+}
+
+.hotItem,
+.allhotItem,
+.hotestItem,
+.row,
+.col {
+    margin: 0px;
+    padding: 10px;
+}
+
+.hotNews {
+    width: 90%;
+    padding: 2% 5%;
+    background-color: #FFDE76;
+    margin: auto;
+}
+
+.caption {
+    font-family: 'Bebas Neue', cursive;
+    font-size: xx-large;
+    color: black;
+}
+
+.titleHotestItem {
+    font-size: x-large;
+    color: black;
+}
+
+.titleHotItem {
+    font-size: large;
+    color: black;
+}
+
+.descriptionHotestItem {
+    font-size: medium;
+    color: black;
+    font-weight: 400;
+}
+
+.titleHotestItem,
+.titleHotItem {
+    font-weight: 600;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    color: black;
+}
+
+.descriptionHotestItem {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    color: black;
+}

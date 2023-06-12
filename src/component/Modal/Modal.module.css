@@ -1,0 +1,18 @@
+.formModal {
+    position: absolute;
+    opacity: 0.8;
+    background-color: rgb(173, 173, 173);
+    z-index: 9;
+    width: 100%;
+    height: 100%;
+}
+
+.modal {
+    z-index: 10;
+    width: 500px;
+    height: 300px;
+    background-color: aliceblue;
+    margin: auto;
+    margin-top: 120px;
+
+}

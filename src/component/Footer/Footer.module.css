@@ -1,0 +1,17 @@
+.footerForm {
+    background-color: #091E42;
+    margin: 0;
+    color: white;
+    padding: 20px;
+    font-weight: 400;
+    font-family: calibri;
+    font-size: small;
+}
+
+.logo {
+    width: 200px;
+}
+
+.contact {
+    text-align: center;
+}

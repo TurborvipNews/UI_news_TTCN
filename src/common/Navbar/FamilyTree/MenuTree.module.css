@@ -1,0 +1,25 @@
+.MenuTree {
+    display: flex;
+    flex-direction: row;
+    overflow-y: scroll;
+    gap: 50px;
+    flex-wrap: wrap;
+    height: 70%;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    background-color: #141329;
+    color: azure;
+}
+
+.nameCategory {
+    font-family: calibri;
+    font-size: larger;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.nameCategory:hover {
+    color: white;
+}

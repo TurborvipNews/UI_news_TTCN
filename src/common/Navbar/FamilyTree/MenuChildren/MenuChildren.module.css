@@ -1,0 +1,12 @@
+.menuChildren {
+    padding: 0px 15px;
+}
+
+.nameCategory {
+    color: white;
+    text-decoration: none;
+}
+
+.nameCategory:hover {
+    color: white;
+}

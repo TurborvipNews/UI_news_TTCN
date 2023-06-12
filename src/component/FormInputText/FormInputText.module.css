@@ -1,0 +1,45 @@
+.input {
+    padding: 8px;
+    font-family: calibri;
+    font-size: medium;
+    border: 2px solid rgb(231, 231, 231);
+    font-weight: lighter;
+    outline: 0px;
+    border-radius: 4px;
+    transition: ease 0.3s;
+}
+
+.input:focus {
+    border: 2px solid #4C9AFF;
+    transition: ease 0.3s;
+}
+
+.input:hover {
+    background-color: rgb(240, 238, 238);
+}
+
+.formInput {
+    display: flex;
+    flex-direction: column;
+    margin: 14px;
+    width: fit-content;
+}
+
+.label {
+    color: #6e6e6e;
+    font-size: small;
+    font-family: calibri;
+    font-weight: 600;
+    width: fit-content;
+}
+
+.require {
+    color: red
+}
+
+.msg {
+    font-size: small;
+    font-family: calibri;
+    font-weight: lighter;
+    color: #6b6b6b;
+}

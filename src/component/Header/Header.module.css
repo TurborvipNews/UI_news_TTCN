@@ -1,0 +1,38 @@
+.headerForm {
+    margin: 0;
+    flex: 99;
+}
+
+.logo {
+    width: 200px;
+}
+
+.formSearch {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconMenu {
+    transition: ease 0.2s;
+}
+
+.iconMenu:hover {
+    transform: rotateY(150deg);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.formBtn {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    margin: 0;
+
+}
+
+.iconKey {
+    width: 50px;
+}

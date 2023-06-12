@@ -1,0 +1,26 @@
+.singular-content{
+    font-family: "Roboto";
+    font-size: medium;
+}
+
+figure,.picture{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.align-center{
+    text-align: center;
+}
+
+figcaption,.pCaption {
+    font-style: italic;
+    color: rgb(94, 94, 94);
+    padding: 0 20%;
+    text-align: center;
+}
+
+.imageItem{
+    object-fit:cover;
+    max-width: 100%;
+}

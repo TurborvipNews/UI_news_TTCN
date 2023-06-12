@@ -1,0 +1,78 @@
+.OTPForm {
+    font-family: -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        "Fira Sans",
+        "Droid Sans",
+        "Helvetica Neue",
+        sans-serif;
+    ;
+    font-weight: 500;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    margin: auto;
+    padding: 30px;
+}
+
+.allInput {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.msg {
+    font-size: small;
+    font-family: calibri;
+    font-weight: lighter;
+    color: #6b6b6b;
+}
+
+.input {
+    outline: 0px;
+    padding: 11px 17px;
+    font-family: calibri;
+    font-size: medium;
+    border: 2px solid rgb(184, 184, 184);
+    font-weight: lighter;
+    outline: 0px;
+    border-radius: 4px;
+    transition: ease 0.3s;
+    width: 50px;
+    font-size: larger;
+    font-weight: 800;
+    caret-color: transparent;
+}
+
+
+.btn {
+    padding: 8px 20px;
+    width: 200px;
+    height: 40px;
+    margin-left: auto;
+    gap: 10px;
+    border: 0px;
+    outline: 0px;
+    background-color: #0052CC;
+    font-weight: 600;
+    color: white;
+    border-radius: 6px;
+    margin: 12px;
+}
+
+.btn:hover {
+    background-color: #025ce2;
+}
+
+.caption {
+    font-weight: 500;
+    font-size: x-large;
+    width: fit-content;
+    padding: 12px;
+}

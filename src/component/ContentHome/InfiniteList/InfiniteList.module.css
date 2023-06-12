@@ -1,0 +1,48 @@
+.normalContent {
+    width: 90%;
+    margin: 2% auto;
+}
+
+.titleNormalContent {
+    font-size: x-large;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.descriptionNormalContent {
+    font-size: medium;
+    color: black;
+}
+
+.imgNormalContent {
+    margin: 0;
+    padding: 0;
+}
+
+.allAds {
+    padding: 0 0 0 3%;
+    color: black;
+}
+
+.itemNormalContent :hover {
+    cursor: pointer;
+    background-color: rgb(238, 238, 238);
+}
+
+.imageItem {
+    width: 100%;
+}
+
+.titleNormalContent {
+    padding: 20px 0 10px 0;
+    color: black;
+}
+
+.loadingSpin {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
